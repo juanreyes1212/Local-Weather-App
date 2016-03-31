@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Local Weather Info</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<section class="container">
+			<h1>Local Weather Information</h1>
+			<div class="well">
+				<p id="weather"></p>
+				<form action="/select metric">
+					<label>
+					<input type="radio" checked name="farenheit-celcius" id="f"> Farenheit
+					</label>
+					<label>
+					<input type="radio" name="farenheit-celcius" id="c"> Celcius
+					</label>
+				</form>
+			</div> 
+		</section>
+		<footer>Created by Juan Diego Reyes 2016</footer>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
